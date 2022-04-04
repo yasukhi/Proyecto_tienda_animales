@@ -33,3 +33,29 @@ footer {
 .fuente{
     font-size: calc(0.5em + 0.5vw);
 }
+.Formularios{
+    margin-top: 5%;
+}
+.contenidos{
+    padding-bottom: 10%;
+}
+
+.botones{
+    margin-left: 20%;
+}
+
+.imagenes{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.textosCarrito{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+.textoTitulo{
+    margin-left: 5%;
+}
