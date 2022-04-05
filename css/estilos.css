@@ -12,14 +12,13 @@
 
 footer {
     background-color: #9EBDD9;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    min-width: 470px;
     padding: 10px;
   }
-.fondoFooter{
-   background-color: #949494;
-}
+
 .imagenFooter{
     width: 100%;
     max-width: 25px;
@@ -32,4 +31,68 @@ footer {
 
 .fuente{
     font-size: calc(0.5em + 0.5vw);
+}
+.Formularios{
+    margin-top: 5%;
+}
+.contenidos{
+    padding-bottom: 10%;
+}
+
+.botones{
+    margin-left: 25%;
+}
+
+.imagenes{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.textosCarrito{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.VistaAdministrador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.botonAdministrador{
+    margin-bottom: 5%;
+}
+
+.CarritoCompras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.CentrarTexto{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.MargenArriba{
+    margin-top: 10px;
+}
+.ImagenArticulo{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 400px;
+}
+.carruselrecos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.CentrarContenido{
+    justify-content: center;
+    align-items: center;
 }
