@@ -28,6 +28,10 @@
     -ms-transition: 1s;
 }
 
+#menu{
+    background-color: #89F08E;
+}
+
 .compra a:hover{
     background-color: rgba(0, 26, 255, 0.74);
     width: 95px;
