@@ -1,24 +1,20 @@
 @import url('https//fonts.googleapis.com/css2?family=Montserrat&display=swap');
-html{
-    margin: 0;
-    padding: 0;
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	border: none;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif; overflow-x: hidden;
     position: relative;
-    background-color: rgb(236, 236, 236);
     background-image:url(../img/slider/mani.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-
-#posicionmapa{
-    margin-top: px ;
-}
  
 #info{
     margin-top: 100px;
@@ -30,6 +26,7 @@ body{
     margin-bottom: 60px;
     justify-content: center;
 }
+
 
 .container {
     width: 100;
@@ -151,12 +148,7 @@ body{
 }
 
 
-.imagenFooter{
-    width: 100%;
-    max-width: 25px;
-    height: 100%;
-    max-height: 25px;
-}
+
 .telefono{
     margin-left: 40%;
 }
@@ -244,18 +236,13 @@ body{
     transform: translateY(4px);
 }
 
-.mapa{
-    width: 100%;
-    height: 500px;
-    
-}
 .mapa12{
     padding-left: 9px;
     padding-top: 2px;
     padding-right:7px;
 
 }
-#menu{
+.navbar{
     background-color: #afe47e;
 }
 
@@ -300,3 +287,85 @@ body{
 #numeros-local p{
     margin: 0;
 }
+
+:root{
+	--white-text:#fff;
+	--background:#c8e8f1;
+	--black-text:rgb(68, 66, 66)	
+	--prueba: (180deg,#21c8f6,#637bff);
+}
+
+.background1-left-column{
+	background: linear-gradient(180deg,#21c8f6,#637bff);
+}
+
+
+.background2-left-column{
+	background: linear-gradient(180deg ,#6edcc4,#1aab8b);
+}
+
+
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+    align-items: center;
+}
+
+.card {
+	background-color:var(--white-text);
+	border-radius: 1rem;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+	display: flex;	
+	margin: 1.5rem;
+	overflow: hidden;
+	width: 30rem;
+	height: 19rem;
+}
+
+
+.left-column {	
+	color: var(--white-text);
+	padding: 2rem;
+	max-width: 10rem;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-column h2{
+	color: var(--white-text);
+}
+
+.left-column i {
+	font-size: 5rem
+}
+
+.right-column {
+	padding: 30px;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+	
+}
+
+.right-column p{	
+	font-size: .9rem;
+	color: var(--black-text)
+}
+
+
+
+@media (max-width: 1030px) {
+	.container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height:auto;
+	}
+  }

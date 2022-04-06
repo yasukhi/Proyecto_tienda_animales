@@ -2,10 +2,17 @@
 .coste_producto{
     font-size: 200%;
 }
-
-.compra{
-    padding-left: 150px;
+.logo{
+    width: 70%;
+    max-width: 75px;
+    height: 70%;
+    max-height: 75px;
 }
+.compra{
+    justify-content: center;
+}
+
+
 .compra a{
     text-decoration:  none;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +20,7 @@
     font-size: 15px;
     text-align: center;
     padding-top: 5px;
-    
+
 
     display: block;
     width: 78px;
@@ -28,8 +35,8 @@
     -ms-transition: 1s;
 }
 
-#menu{
-    background-color: #b8924d;
+.navbar{
+    background-color: #afe47e;
 }
 
 .compra a:hover{
