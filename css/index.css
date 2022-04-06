@@ -8,7 +8,10 @@ body{
     overflow-x: hidden;
     font-family: sans-serif;
     position: relative;
-
+    background-color: rgb(236, 236, 236);
+    background-image:url(../img/slider/mani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -253,7 +256,7 @@ body{
 
 }
 #menu{
-    background-color: #89F08E;
+    background-color: #afe47e;
 }
 
 #local{
