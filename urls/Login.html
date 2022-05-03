@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <div class="categoria">
-                    <a href="" style="color: #000000">Gatos</a>
+                    <a href="../urls/gatos.html" style="color: #000000">Gatos</a>
                 </div>
 
                 <div class="categoria">
@@ -74,12 +74,12 @@
       </nav>
 
     <div class="d-flex justify-content-center Formularios">
-        <form role="formulario">
+        <form action="EditarPerfil.html">
             <div class="form-group contenidos">
                 <label for="email">Correo electronico:</label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" id="email" required>
                 <label for="pwd">Clave:</label>
-                <input type="password" class="form-control" id="pwd">
+                <input type="password" class="form-control" id="password" required>
                 <div class="checkbox">
                     <label><input type="checkbox"> Recuerdame</label>
                 </div>
@@ -87,7 +87,7 @@
             </div>
             
 
-            <a href="../urls/EditarPerfil.html" class="btn btn-success" role="button">Ingresar</a>
+            <input type="submit" class="btn btn-success" value="Registrarse"></a>
         </form>
     </div>
 

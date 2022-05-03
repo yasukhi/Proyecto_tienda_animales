@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <div class="categoria">
-                    <a href="" style="color: #000000">Gatos</a>
+                    <a href="../urls/gatos.html" style="color: #000000">Gatos</a>
                 </div>
 
                 <div class="categoria">
@@ -100,10 +100,19 @@
                     <label for="Direccion">Direccion:</label>
                     <input type="text" class="form-control" id="Direccion">
                 </div>
+                
                 <div class="col-md-12">
-                    <label for="Comuna">Comuna:</label>
-                    <input type="text" class="form-control" id="Comuna">
+                    <label for="regiones">Region:</label>
+                    <br>
+                    <select id="regiones"></select>
                 </div>
+
+                <div class="col-md-12">
+                    <label for="comunas">Comuna:</label>
+                    <br>
+                    <select id="comunas"></select>
+                </div>
+
                 <div class="col-md-12">
                     <label for="CodigoPostal">Codigo Postal:</label>
                     <input type="text" class="form-control" id="CodigoPostal">
@@ -121,6 +130,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/regiones.js"></script>
 </body>
 
 </html>

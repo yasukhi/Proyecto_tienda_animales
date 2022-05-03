@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <div class="categoria">
-                    <a href="" style="color: #000000">Gatos</a>
+                    <a href="../urls/gatos.html" style="color: #000000">Gatos</a>
                 </div>
 
                 <div class="categoria">
@@ -80,10 +80,10 @@
             <div class="form-group">
                 <h4>Ingresa el codigo del producto a editar</h4>
                 <label for="CodigoProducto">Codigo del producto:</label>
-                <input type="text" class="form-control" id="CodigoProducto">
+                <input type="text" class="form-control" id="CodigoProducto" required>
             </div>
 
-            <button type="button" class="btn btn-success MargenArriba">Enviar</button>
+            <input type="submit" class="btn btn-success MargenArriba" value="Enviar"></a>
         </form>
     </div>
 
@@ -93,28 +93,29 @@
 
                 <div class="col-md-6">
                     <label for="Titulo">Titulo:</label>
-                    <input type="text" class="form-control" id="Titulo">
+                    <input type="text" class="form-control" id="Titulo" required>
                 </div>
                 <div class="col-md-6">
                     <label for="Imagen">Imagen:</label>
-                    <input type="file" name="imagen1" />
+                    <input type="file" name="imagen1" required>
                 </div>
                 <div class="col-md-12">
                     <label for="Descripcion">Descripcion:</label>
-                    <input type="texto" class="form-control" id="Descripcion">
+                    <input type="texto" class="form-control" id="Descripcion" required>
                 </div>
                 <div class="col-md-12">
                     <label for="Cantidad">Cantidad:</label>
-                    <input type="text" class="form-control" id="Cantidad">
+                    <input type="text" class="form-control" id="Cantidad" required>
                 </div>
                 <div class="col-md-12">
                     <label for="Precio">Precio:</label>
-                    <input type="text" class="form-control" id="Precio">
+                    <input type="text" class="form-control" id="Precio" required>
                 </div>
 
             </div>
+            
+            <input type="submit" class="btn btn-success MargenArriba" value="Enviar"></a>
         </form>
-        <button type="button" class="btn btn-success MargenArriba">Aceptar</button>
 
     </div>
 
