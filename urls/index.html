@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"defer></script>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,10 +12,11 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/index.css">
   <title>Tienda animales felices</title>
+  <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
 <body>
-
   <!------------------------------------------------------------->
   <!-------------------------MENU-------------------------------->
   <!------------------------------------------------------------->
@@ -73,6 +76,19 @@
   <!------------------------FINAL_MENU--------------------------->
   <!------------------------------------------------------------->
 
+  <!------------------------------------------------------------->
+  <!--------------------------API-------------------------------->
+  <!------------------------------------------------------------->
+  <div class="bot_bord marg" id="google_translate_element"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+          'google_translate_element');
+    } 
+  </script>
+  <!------------------------------------------------------------->
+  <!-------------------------FIN_API----------------------------->
+  <!------------------------------------------------------------->
 
   <!--==========================================================================================-->
   <!-- carrusel-->
@@ -114,7 +130,7 @@
   <!--==========================================================================================-->
   <div class="container" >
     <section>
-      <img src="../img/tienda.png" height="500px" width="600px" alt="">
+      <img src="../img/tienda.png" height="500px" width="100%" alt="">
     </section>
   </div>
   <!--==========================================================================================-->
@@ -161,39 +177,18 @@
   <!--Mapa-->
   <!--==========================================================================================-->
 
-  <div class="container" id="posicionmapa">
-    <div id="local" class="border-2">
-      <div class="mapa12">
-        <div class="mapa"><img src="../img/mapa.PNG" width="1100px" height="530" alt=""></div>
-      </div>
-      <div class="weapper">
-        <h2>Ubicado en Altos del Valle, Huechuraba,<br> Región Metropolitana</h2>
-        <h2 class="text-primary mb-4" id="typewriter"></h2>
-        <p class="fs-5 text-body">Elijimos Altos del Valle para nuestra tienda con el objetivo de estar cerca de
-          nuestros clientes. Estamos ubicados en Huechuraba</p>
-        <section class="d-flex" id="numeros-local">
-          <div>
-            <p class="text-primary fs-5">22 aforo</p>
-            <p>personas</p>
-          </div>
-          <div>
-            <p class="text-primary fs-5">100%</p>
-            <p>Aprovado</p>
-          </div>
-          <div>
-            <p class="text-primary fs-5">24°c</p>
-            <p>Temperatura</p>
-          </div>
-        </section>
-      </div>
+  <div class="container">
+    <div class="col">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.084395610342!2d-70.66875768480341!3d-33.34274488080497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c7a04d417cfb%3A0xd41cdbd240479569!2sAltos%20del%20Valle%2C%20Huechuraba%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1651607185365!5m2!1ses-419!2scl" 
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
   </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
