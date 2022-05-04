@@ -34,7 +34,7 @@ $(document).ready(function() {
     }
 
 
-    if ( Clave.match(/[A-Z]/gi)) {
+    if ( Clave.match(/[A-Z]/)) {
         event.returnValue = false;
 
     }else{
