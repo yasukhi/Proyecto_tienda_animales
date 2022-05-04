@@ -5,10 +5,17 @@ $(document).ready(function() {
     var Clave1 = document.getElementById("clave1").value;
     var Clave2 = document.getElementById("clave2").value;
 
-    console.log(Clave);
-    console.log(Clave1);
-    console.log(Clave2);
+    var Email1 = document.getElementById("email1").value;
+    var EMail2 = document.getElementById("email2").value;
 
+
+    if(Email1 != EMail2){
+        event.preventDefault();
+        alert("El correo debe ser igual");
+
+    }else{
+        event.returnValue = false;
+    }
 
     if(Clave1 != Clave2){
         event.preventDefault();
